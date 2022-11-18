@@ -1,4 +1,6 @@
 // Make an inventory of items(15) for sale(can be anything, ex: shoes, cars, clothes) Each item needs a name, price, image and should be dynamically loaded from js into the html. Use methods to create a featured section that filters through your inventory and creates a section based on the 5 items with the lowest price
+// ------------------------------------------------------
+// Array with Objects of Games
 let gameInfo = [ 
     {
         Game: 'Madden 23', 
@@ -59,11 +61,9 @@ let gameInfo = [
 // Varibles
 let featuredGames = document.getElementById('featuredGames');
 let regGames = document.getElementById('regGames');
-let game = document.querySelector('.game')
-let price = document.querySelector('.price')
 
 // -----------------------------------------------------------------
-// Filter for Featured Games
+// Function with Filter for Featured Games
 function featuredGamesF() {
     let filter = gameInfo.filter(item=> item.Price < 50);
     filter.forEach(item => {
@@ -72,14 +72,14 @@ function featuredGamesF() {
         <p>${item.Price}</p>
         `
     });
+    // Test Results for Featured Games in Console
     console.log(filter)
-    
-}
+};
 
 featuredGamesF();
 
 // -----------------------------------------------------------------
-// Filter for Regular Games
+// Function with Filter for Regular Games
 function regularGames() {
     let filter = gameInfo.filter(item=> item.Price > 50);
     filter.forEach(item => {
@@ -88,8 +88,9 @@ function regularGames() {
         <p>${item.Price}</p>
         `
     });
-    
-}
+    // Test Results for Regular Games in Console
+    console.log(filter)
+};
 
 regularGames();
 
