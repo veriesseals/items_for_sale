@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Open+Sans:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Items for Sale</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-title text-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <h1>Gamez and Toyz<span id="reserved-icon">&#xae;</span></h1>
+                </div>
+            </div>
+        </header>
+        <hr>
+        <!-- Make an inventory of items(15) for sale(can be anything, ex: shoes, cars, clothes) Each item needs a name, price, image and should be dynamically loaded from js into the html. Use methods to create a featured section that filters through your inventory and creates a section based on the 5 items with the lowest price -->
+        <main class="container">
+            <div class="row">
+                <h2>Featured Games on Sale (All Games Under $50)</h2>
+                <hr>
+                <!-- Featured Games -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;" id="featuredGames">
+                        <div class="card-body">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div id="featuredGames"></div>
+                <div id="regGames"></div> -->
+            </div>
+            <hr>
+            <!-- Regular Games -->
+            <h2>Our Newest Games and Prices (All Games Over $50)</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;" id="regGames">
+                        <div class="card-body">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="game"></div>
+            <div class="price"></div>
+            <hr>
+            
+        </main>
+
+        <hr>
+        
+        <footer class="container-fluid" id="footer-cont">
+            <div class="row">
+                <div class="col text-center">
+                    <h5>Developed by Veries Seals III 2022</h5>
+                </div>
+            </div>
+        </footer>
+    
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+
+    </div>
+</body>
+</html>

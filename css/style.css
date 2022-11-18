@@ -1,0 +1,44 @@
+/* * {
+    outline: 1px dotted red;
+} */
+
+/* -------------------------------------- */
+/* Header */
+h1 {
+    color: whitesmoke;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Henny Penny', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#reserved-icon{
+    color: whitesmoke;
+    font-size: 18px;
+    /* margin-bottom: 10px; */
+}
+
+.header-title {
+    background-color: rgb(54, 50, 50);
+}
+
+/* -------------------------------------- */
+/* Body */
+
+
+
+
+/* -------------------------------------- */
+/* Footer */
+
+#footer-cont{
+    color: whitesmoke;
+    margin-top: 230px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(54, 50, 50);
+}
