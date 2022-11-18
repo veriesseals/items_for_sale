@@ -69,7 +69,7 @@ function featuredGamesF() {
     filter.forEach(item => {
         featuredGames.innerHTML += `
         <h2>${item.Game}<h2>
-        <p>${item.Price}</p>
+        <p>$${item.Price}</p>
         `
     });
     // Test Results for Featured Games in Console
@@ -85,7 +85,7 @@ function regularGames() {
     filter.forEach(item => {
         regGames.innerHTML += `
         <h2>${item.Game}<h2>
-        <p>${item.Price}</p>
+        <p>$${item.Price}</p>
         `
     });
     // Test Results for Regular Games in Console
